@@ -1,0 +1,33 @@
+{
+    "name": "mentariweb/ci-blade",
+    "type": "library",
+    "description": "Use Blade templates without in Codeigniter",
+    "keywords": ["codeigniter", "blade", "template", "ci blade"],
+    "homepage": "https://github.com/mentariweb/ci-blade",
+    "license": "Apache-2.0",
+    "authors": [{
+        "name": "Mas Ranto",
+        "email": "mentariwebcom@gmail.com",
+        "homepage": "https://github.com/mentariweb",
+        "role": "Developer"
+    }],
+    "require": {
+        "illuminate/contracts": ">=5.5,<5.7",
+        "illuminate/events": ">=5.5,<5.7",
+        "illuminate/filesystem": ">=5.5,<5.7",
+        "illuminate/view": ">=5.5,<5.7",
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "mentariweb/object-intruder": "^0.3.0",
+        "maglnet/composer-require-checker": "^0.1.6",
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {"mentariweb\\Laravel\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"mentariweb\\LaravelTests\\": "tests/"}
+    }
+}
