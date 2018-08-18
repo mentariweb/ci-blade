@@ -25,8 +25,5 @@
     },
     "autoload": {
         "psr-4": {"mentariweb\\Laravel\\": "src/"}
-    },
-    "autoload-dev": {
-        "psr-4": {"mentariweb\\LaravelTests\\": "tests/"}
-    }
+    } 
 }
