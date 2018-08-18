@@ -19,8 +19,7 @@
         "php": "^7.1"
     },
     "require-dev": {
-        "mentariweb/ObjectIntruder": "^0.3.0",
-        "maglnet/composer-require-checker": "^0.1.6",
+         "maglnet/composer-require-checker": "^0.1.6",
         "mockery/mockery": "^1.0",
         "phpunit/phpunit": "^6.4"
     },
